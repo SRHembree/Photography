@@ -352,7 +352,7 @@ h1 {
     color: #B0453C;
     border-style: solid;
     border-radius: 5px;
-    z-index: 1;
+    z-index: 0;
 }
 .protoVisuals2 img {
     margin: auto; 
@@ -362,7 +362,7 @@ h1 {
     color: #68877F;
     border-style: solid;
     border-radius: 5px;
-    z-index: 1;
+    z-index: 0;
 }
 .protoVisuals3 img {
     margin: auto; 
@@ -372,5 +372,5 @@ h1 {
     color: #C3A082;
     border-style: solid;
     border-radius: 5px;
-    z-index: 1;
+    z-index: 0;
 }
