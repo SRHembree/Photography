@@ -3,23 +3,11 @@
     .protoVisuals1 img {
         transition:transform 0.25s ease;
     }
-    .protoVisuals1 img:hover {
-        -webkit-transform:scale(1.1);
-        transform:scale(1.1);
-    }
     .protoVisuals2 img {
         transition:transform 0.25s ease;
     }
-    .protoVisuals2 img:hover {
-        -webkit-transform:scale(1.1);
-        transform:scale(1.1);
-    }
     .protoVisuals3 img {
         transition:transform 0.25s ease;
-    }
-    .protoVisuals3 img:hover {
-        -webkit-transform:scale(1.1);
-        transform:scale(1.1);
     }
     .flowerFooter {
         background-size: 40px; 
@@ -32,10 +20,12 @@
     }
     .flowerPower {
         position: relative;
+        padding-top: 90px;
     }
     .flowerPower img {
         width: 100%; 
-        animation: big-spin 160s linear infinite;
+        height: fit-content;
+        animation: big-spin 140s linear infinite;
     }
     @keyframes big-spin {
         0% {
@@ -90,6 +80,7 @@ filter: drop-shadow(2px 2px 0 white)
     }
     .flowerPower img {
         width: 100%; 
+        height: fit-content;
         animation: big-spin 160s linear infinite;
     }
     @keyframes big-spin {
@@ -146,6 +137,7 @@ filter: drop-shadow(2px 2px 0 white)
     }
     .flowerPower img {
         width: 100%; 
+        height: fit-content;
         animation: big-spin 160s linear infinite;
     }
     @keyframes big-spin {
@@ -212,6 +204,7 @@ filter: drop-shadow(2px 2px 0 white)
     }
     .flowerPower img {
         width: 100%; 
+        height: fit-content;
         animation: big-spin 160s linear infinite;
     }
     @keyframes big-spin {
@@ -305,6 +298,7 @@ html {
     padding-top: 2em;
     padding-bottom: 2em;
     width: 100%; 
+    z-index: -100;
 }
 /* <!-- Nav CSS --> */
 #dropdownMenuLink {
@@ -351,7 +345,7 @@ h1 {
     border: 3;
     color: #8c75b5;
     border-style: solid;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .protoVisuals2 img {
     margin: auto; 
@@ -360,7 +354,7 @@ h1 {
     border: 3;
     color: #8c75b5;
     border-style: solid;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .protoVisuals3 img {
     margin: auto; 
@@ -369,5 +363,5 @@ h1 {
     border: 3;
     color: #8c75b5;
     border-style: solid;
-    border-radius: 5px;
+    border-radius: 10px;
 }
